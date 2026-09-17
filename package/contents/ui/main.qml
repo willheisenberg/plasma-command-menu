@@ -245,9 +245,8 @@ PlasmoidItem {
                 Layout.preferredWidth: Kirigami.Units.iconSizes.smallMedium
                 Layout.preferredHeight: Kirigami.Units.iconSizes.smallMedium
                 Layout.alignment: Qt.AlignVCenter
-                source: root.menuIcon !== "" ? root.menuIcon : Qt.resolvedUrl("../icon.svg")
-                isMask: root.menuIcon === ""
-                color: Kirigami.Theme.textColor
+                source: root.menuIcon !== "" ? root.menuIcon : "bash"
+                fallback: "utilities-terminal"
                 active: compactRoot.containsMouse
             }
 
