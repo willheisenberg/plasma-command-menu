@@ -44,6 +44,7 @@ Either a plain array of entries, or an object with top-level settings:
 | `showIcon` | Top level only: `false` hides the panel icon when a title is set     |
 
 The file is re-read every time the menu opens, so no reload is needed after editing.
+Submenus slide open inside the menu and the popup grows to fit, so it only scrolls when it would exceed the screen.
 Keyboard: ↑/↓ to select, Enter to run, →/← to open/close submenus.
 
 ## Settings
