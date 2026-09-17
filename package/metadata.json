@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "tesla@example.com",
+                "Name": "Tesla"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "Run your own command shortcuts from the panel. Port of the GNOME extension 'Command Menu' – reads the same ~/.commands.json.",
+        "Icon": "utilities-terminal",
+        "Id": "com.github.tesla.plasmacommandmenu",
+        "License": "GPL-3.0-or-later",
+        "Name": "Command Menu",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

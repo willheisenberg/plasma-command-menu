@@ -1,0 +1,39 @@
+{
+    "title": "Commands",
+    "showIcon": true,
+    "icon": "utilities-terminal",
+    "menu": [
+        {
+            "title": "Terminal",
+            "command": "konsole",
+            "icon": "utilities-terminal"
+        },
+        {
+            "title": "File Manager",
+            "command": "dolphin",
+            "icon": "folder"
+        },
+        {
+            "type": "separator"
+        },
+        {
+            "title": "Web Browser",
+            "command": "firefox",
+            "icon": "web-browser"
+        },
+        {
+            "type": "separator"
+        },
+        {
+            "title": "SSH Connections",
+            "type": "submenu",
+            "submenu": [
+                {
+                    "title": "Connect to Server (SSH)",
+                    "command": "konsole -e bash -c 'ssh root@10.144.1.2 -p 8022'",
+                    "icon": "utilities-terminal"
+                }
+            ]
+        }
+    ]
+}
